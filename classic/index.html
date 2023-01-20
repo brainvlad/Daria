@@ -1,0 +1,177 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic</title>
+
+    <link rel="stylesheet" href="./css/css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <a href="#welcome" class="header__link">Главная</a>
+        <a href="#news" class="header__link">Новости</a>
+        <a href="#review" class="header__link">Обзоры</a>
+      </nav>
+      <nav class="header__menu">
+        <a href="" class="header__link">
+          <img src="./img/search-icon.svg" alt="" />
+        </a>
+        <a href="" class="header__link">
+          <img src="./img/user-icon.png" alt="" />
+        </a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="news" id="welcome">
+        <div class="news__info">
+          <h2 class="news__title">Новости</h2>
+          <p class="news__desc">
+            IBM запустил самый мощный квантовый компьютер на 433 кубита
+          </p>
+        </div>
+        <div class="news__img">
+          <img src="./img/news-itle.png" alt="" />
+        </div>
+      </div>
+      <div class="lenta" id="news">
+        <div class="lenta__title">
+          <div class="lenta__title-head">Новости</div>
+          <div class="lenta__title-more">
+            <span>Ещё</span>
+            <img src="./img/arrow-icon.png" alt="" />
+          </div>
+        </div>
+        <div class="lenta__line"></div>
+        <div class="lenta__list-vertical">
+          <div class="lenta__item">
+            <div class="lenta__item-img">
+              <img src="./img/news-1.png" alt="" />
+            </div>
+            <div class="lenta__item-info">
+              <div class="lenta__item-author">Paulina Pandora</div>
+              <div class="lenta__item-desc">
+                QUALCOMM представила SNAPDRAGON 782G — почти флагманский чипсет
+                для смарфонов подешевле
+              </div>
+            </div>
+          </div>
+          <div class="lenta__item">
+            <div class="lenta__item-img">
+              <img src="./img/news-2.png" alt="" />
+            </div>
+            <div class="lenta__item-info">
+              <div class="lenta__item-author">Paulina Pandora</div>
+              <div class="lenta__item-desc">
+                Reddit определил самые популярные публикации 2022 года
+              </div>
+            </div>
+          </div>
+          <a href="./news-item.html" class="lenta__item">
+            <div class="lenta__item-img">
+              <img src="./img/news-3.png" alt="" />
+            </div>
+            <div class="lenta__item-info">
+              <div class="lenta__item-author">Roman Zharkov</div>
+              <div class="lenta__item-desc">
+                Xiaomi показала тизер мини-ПК, который помещается на ладони
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="sub">
+        <div class="sub__desc">
+          Новости технологий на твоем e-mail каждую неделю
+        </div>
+        <div class="sub__block">
+          <input class="sub__input" type="text" placeholder="Email address" />
+          <button class="sub__btn">ПОДПИСАТЬСЯ</button>
+        </div>
+      </div>
+      <div class="lenta" id="review">
+        <div class="lenta__title">
+          <div class="lenta__title-head">Обзоры</div>
+          <div class="lenta__title-more">
+            <span>Ещё</span>
+            <img src="./img/arrow-icon.png" alt="" />
+          </div>
+        </div>
+        <div class="lenta__line"></div>
+        <div class="lenta__list-vertical">
+          <div class="lenta__item">
+            <div class="lenta__item-img">
+              <img src="./img/news-4.png" alt="" />
+            </div>
+            <div class="lenta__item-info">
+              <div class="lenta__item-author">Sergey Lekarev</div>
+              <div class="lenta__item-desc">
+                ОБЗОР XIAOMI REDMIBOOK 15: характеристики превышают цену
+              </div>
+            </div>
+          </div>
+          <div class="lenta__item">
+            <div class="lenta__item-img">
+              <img src="./img/news-5.png" alt="" />
+            </div>
+            <div class="lenta__item-info">
+              <div class="lenta__item-author">COLUMBUS</div>
+              <div class="lenta__item-desc">
+                ОБЗОР APPLE WATCH SERIES 8: минорное обновление, которое никого
+                не впечатлит
+              </div>
+            </div>
+          </div>
+          <div class="lenta__item">
+            <div class="lenta__item-img">
+              <img src="./img/news-6.png" alt="" />
+            </div>
+            <div class="lenta__item-info">
+              <div class="lenta__item-author">Vasily Zuev</div>
+              <div class="lenta__item-desc">
+                Обзор Huawei FreeLace: наушники с секретом
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main">
+          <div class="footer__social">
+            <a href=""><img src="./img/social-1.png" alt="" /></a>
+            <a href=""><img src="./img/social-2.png" alt="" /></a>
+            <a href=""><img src="./img/social-3.png" alt="" /></a>
+            <a href=""><img src="./img/social-4.png" alt="" /></a>
+          </div>
+          <div class="footer__category">
+            <div class="footer__category-title">Категории</div>
+            <a href="" class="footer__category-item">Новости</a>
+            <a href="" class="footer__category-item">Обзоры</a>
+          </div>
+          <div class="footer__sub">
+            <div class="footer__sub-title">
+              Хотите стать автором? Оставьте свой e-mail
+            </div>
+            <div class="sub__block">
+              <input
+                class="sub__input"
+                type="text"
+                placeholder="Email address"
+              />
+              <button class="sub__btn">ПОДПИСАТЬСЯ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
